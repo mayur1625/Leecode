@@ -6,6 +6,7 @@ public class LongestConsucativeNonRepeatingString {
 
         String s = "ABBCEFDACFZX";
 
+
         int start = 0, maxLen = 0;
         String result = "";
         java.util.Map<Character, Integer> map = new java.util.HashMap<>();
